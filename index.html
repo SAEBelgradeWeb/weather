@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather App</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<select id="city_select" onchange="getWeather()">
+			<option value="Belgrade,RS">Belgrade</option>
+			<option value="Rome,It">Rome</option>
+			<option value="London,Uk">London</option>
+		</select>
+	<h2 id="city"></h2>
+	<h1>Temperature: <span id="temp"></span></h1>
+	<h1><span id="desc"></span></h1>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>

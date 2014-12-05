@@ -1,0 +1,21 @@
+body {
+	background-color: #568cbe;
+}
+
+h1, h2 {
+	color: white;
+	font-family: Arial;
+
+}
+
+.container {
+	width: 40%;
+	margin: 20% auto auto;
+}
+
+select {
+	
+	width: 100%;
+	font-size: 30px;
+
+}
